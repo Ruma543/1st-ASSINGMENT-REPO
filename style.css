@@ -1,0 +1,130 @@
+*{
+  font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* header section style */
+.header-section{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  width: 1920px;
+  height: 850px;
+  margin: auto;
+  background: rgba(229, 84, 115, 0.10); 
+  column-gap: 97px; 
+}
+.header-content{
+  width: 708px;
+  height: 506px;
+}
+.content-header{
+  color: #272727;
+font-size: 80px;
+font-weight: 800;
+width: 720px;
+height: 288px;
+margin-bottom: 32px;
+}
+.content-description{
+  width: 634px;
+  height: 90px;
+  color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.btn-primary{
+  width: 177px;
+  height: 64px;
+  color: #FFF;
+font-size: 20px;
+font-weight: 700;
+border-radius: 8px;
+background: #E55473;
+border: none;
+}
+.header-image{
+  width: 635px;
+  height: 800px;
+  margin-bottom: -50px;
+}
+/* sale container style */
+.sale-container{
+  width: 1922px;
+  height: 620px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+column-gap: 186px;
+
+}
+.sale-related-content{}
+.sale-header{
+  width: 594px;
+  height: 48px;
+  color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.sale-header span{
+  color: #E55473;
+}
+.sale-description{
+  width: 594px;
+  height: 60px;
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.sign-btn{
+  width: 155px;
+  height: 64px;
+  border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+border: 0px;
+}
+.sale-image{
+  width: 318px;
+  height: 420px;
+}
+.image-2{
+}
+/* instagram container style */
+.message-container{
+  width: 594px;
+  height: 132px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.message{
+  align-items: center;
+}
+.message-heading{
+  width: 180px;
+  height: 48px;
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.message-description{
+  width: 595px;
+  height: 60px;
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
