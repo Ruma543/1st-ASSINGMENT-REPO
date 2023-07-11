@@ -4,6 +4,13 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+body{
+  width: 1920px;
+height: 4867px;
+margin: auto;
+background: #FFF;
+align-items: center;
+}
 /* header section style */
 .header-section{
   display: flex;
@@ -50,6 +57,7 @@ border: none;
   height: 800px;
   margin-bottom: -50px;
 }
+/* main section style */
 /* sale container style */
 .sale-container{
   width: 1922px;
@@ -102,19 +110,22 @@ border: 0px;
 }
 /* instagram container style */
 .message-container{
-  width: 594px;
-  height: 132px;
-  margin: auto;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 .message{
   align-items: center;
+   width: 594px;
+  height: 132px;
+  margin: auto;
+  margin-top: 128px;
+  margin-bottom: 48px;
 }
 .message-heading{
   width: 180px;
   height: 48px;
+  margin: auto;
   color: #272727;
 text-align: center;
 font-size: 40px;
@@ -126,5 +137,123 @@ font-weight: 800;
   color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
+font-weight: 400;
+}
+/* product image section style */
+.product-image{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 128px;
+}
+.image-3{
+  width: 342px;
+height: 396px;
+gap: 24px;
+}
+/* latest deal section style.. */
+.deals-container{
+  width: 1440px;
+height: 449px;
+margin: auto;
+background-image: url(image/Rectangle\ 9.png);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 128px;
+}
+.deals{
+   width: 866px;
+  height: 209px;
+  margin: auto;
+}
+.deals-header{
+  width: 450px;
+  height: 48px;
+  margin: auto;
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 16px;
+}
+.deals-description{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+width: 280px;
+height: 30px;
+margin: auto;
+margin-bottom: 48px;
+}
+.Subscribe-form{
+  width: 866px;
+  height: 209px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.email-input{
+  width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+color: rgba(39, 39, 39, 0.60);
+text-align: left;
+font-size: 16px;
+font-weight: 400;
+border: 0px;
+}
+.Subscribe-btn{
+  width: 150px;
+height: 64px;
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+border: 0px;
+}
+/* footer section style */
+.footer-container{
+  width: 1922px;
+height: 449px;
+background: #111010;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.footer-content{
+  width: 625px;
+  height: 193px;
+  margin: auto;
+}
+.footer-title{
+  color: #E55473;
+font-size: 48px;
+font-weight: 800;
+width: 259px;
+height: 58px;
+margin: auto;
+margin-bottom: 24px;
+}
+.footer-title>span{
+  color:#FFFFFF ;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+width: 625px;
+height: 60px;
+margin-bottom:32px ;
+}
+.footer-text{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
 font-weight: 400;
 }
