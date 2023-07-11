@@ -293,10 +293,11 @@ margin: auto;
 margin-bottom: 48px;
 }
 .Subscribe-form{
-  width: 866px;
+  width: 870px;
   height: 209px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 16px;
 
 }
 .email-input{
