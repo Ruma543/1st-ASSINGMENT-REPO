@@ -206,9 +206,9 @@ border: 0px;
 .sale-image{
   width: 318px;
   height: 420px;
-  background: lightgray 50%;
-  opacity:1;
-  background-blend-mode: overlay;
+  background: rgba(255, 204, 204,0.2) 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .image-2{
 }
