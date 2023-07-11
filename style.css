@@ -20,7 +20,8 @@ align-items: center;
   height: 850px;
   margin: auto;
   background: rgba(229, 84, 115, 0.10); 
-  column-gap: 97px; 
+  column-gap: 97px;
+  margin-bottom: 178px; 
 }
 .header-content{
   width: 708px;
@@ -58,6 +59,105 @@ border: none;
   margin-bottom: -50px;
 }
 /* main section style */
+/* featured section style */
+.featured-container{
+  width: 1440px;
+  height: 785px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
+}
+.featured-content{}
+.featured-title{
+  width: 450px;
+  height: 48px;
+  margin: auto;
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.featured-message{
+  width: 594px;
+  height: 60px;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 48px;
+}
+.featured-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.feature-1{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 32px;
+
+}
+.feature-2{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 32px;
+}
+.feature-3{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 32px;
+}
+.product-image-1{
+  width: 310px;
+height: 428px;
+margin-bottom: -107px;
+}
+.product-image-2{
+  width: 370px;
+height: 370px;
+margin-bottom: -50px;
+}
+.product-image-3{
+  width: 314px;
+height: 471px;
+margin-bottom: -65px;
+}
+.product-img-name{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-img-name>p{
+  color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration: underline;
+line-height: 35px;
+}
+/* .featured-image>a{} */
+
+
 /* sale container style */
 .sale-container{
   width: 1922px;
